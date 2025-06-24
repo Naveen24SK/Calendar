@@ -1,0 +1,61 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+.menu-btn {
+  font-size: 24px;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .right-section {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .icon {
+    position: relative;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .badge {
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 50%;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-btn {
+      display: block;
+    }
+    .right-section {
+      gap: 10px;
+    }
+  }
+  

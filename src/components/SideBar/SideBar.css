@@ -1,0 +1,30 @@
+.sidebar {
+  width: 200px;
+  background-color: #263238;
+  color: white;
+  padding-top: 20px;
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+
+.sidebar.close {
+  display: none;
+}
+
+.sidebar.open {
+  display: block;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background-color: #37474f;
+}

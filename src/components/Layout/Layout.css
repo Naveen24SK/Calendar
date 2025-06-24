@@ -1,0 +1,14 @@
+/* src/components/Layout/Layout.css */
+.layout-container {
+  display: flex;
+}
+
+.layout-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-content {
+  padding: 20px;
+}
