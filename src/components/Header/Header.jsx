@@ -16,10 +16,6 @@ export default function Header({ toggleSidebar }) {
       </div>
       <div className="right-section">
         <div className="icon">
-          <MailIcon />
-          <span className="badge">4</span>
-        </div>
-        <div className="icon">
           <NotificationsIcon />
           <span className="badge">17</span>
         </div>

@@ -11,7 +11,14 @@
     "startTime": "04:30",
     "endTime": "07:30",
     "color": "#f6501e",
-    "title": "Weekly catchup"
+    "title": "Weekly Catchup"
+  },
+  {
+    "date": "2025-06-24",
+    "startTime": "09:00",
+    "endTime": "10:00",
+    "color": "#4caf50",
+    "title": "Product Demo"
   },
   {
     "date": "2025-06-26",
@@ -19,5 +26,20 @@
     "endTime": "10:00",
     "color": "#4caf50",
     "title": "Team Meeting"
+  },
+    {
+    "date": "2025-06-28",
+    "startTime": "09:00",
+    "endTime": "10:00",
+    "color": "#4caf50",
+    "title": "Office Meeting"
+  },
+    {
+    "date": "2025-06-04",
+    "startTime": "09:00",
+    "endTime": "10:00",
+    "color": "#4caf50",
+    "title": "Task Review"
   }
+
 ]

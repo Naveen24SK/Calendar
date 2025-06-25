@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FF6700;
+    background-color: #ff8432;
     color: white;
   }
   
@@ -28,7 +28,8 @@
   
   .right-section {
     display: flex;
-    gap: 15px;
+    gap: 20px;
+    margin-right: 20px;
     align-items: center;
   }
   
