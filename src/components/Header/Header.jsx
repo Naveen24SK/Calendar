@@ -12,7 +12,7 @@ export default function Header({ toggleSidebar }) {
         <button className="menu-btn" onClick={toggleSidebar}>
           <MenuIcon />
         </button>
-        <h1 className="logo">MyApp</h1>
+        <h1 className="logo">Calendar</h1>
       </div>
       <div className="right-section">
         <div className="icon">
