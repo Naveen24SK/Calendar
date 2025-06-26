@@ -17,7 +17,6 @@ export default function Header({ toggleSidebar }) {
       <div className="right-section">
         <div className="icon">
           <NotificationsIcon />
-          <span className="badge">17</span>
         </div>
         <div className="icon">
           <AccountCircleIcon />

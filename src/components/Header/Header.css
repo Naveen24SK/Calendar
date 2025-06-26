@@ -4,6 +4,7 @@
     align-items: center;
     background-color: #ff8432;
     color: white;
+    height: 60px;
   }
   
   .left-section {
@@ -21,11 +22,6 @@
 }
 
   
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
   .right-section {
     display: flex;
     gap: 20px;
@@ -39,16 +35,6 @@
     cursor: pointer;
   }
   
-  .badge {
-    position: absolute;
-    top: -5px;
-    right: -8px;
-    background-color: red;
-    color: white;
-    font-size: 10px;
-    padding: 2px 5px;
-    border-radius: 50%;
-  }
   
   @media (max-width: 768px) {
     .menu-btn {

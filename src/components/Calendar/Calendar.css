@@ -25,13 +25,13 @@
   text-align: center;
   padding: 6px 0;
   background-color: #e8e7e7;
-  color: rgb(255, 129, 39);
+  color: #FF8278;
 }
 
 .calendar-cell {
   border: 1px solid #ddd;
   padding: 4px;
-  min-height: 100px;
+  min-height: 120px;
   position: relative;
   border-radius: 6px;
   background-color: #fff;
@@ -58,8 +58,8 @@
 }
 
 .calendar-today {
-  background-color: #a4c8ff;
-  color: #00356b;
+  background-color: #ffd3a4;
+  color: #FF8278;
 }
 
 .calendar-events {
@@ -86,10 +86,8 @@
   position: absolute;
   bottom: 4px;
   right: 4px;
-  font-size: 10px;
-  background-color: #d1e0ff;
+  font-size: 15px;
   color: #00356b;
-  padding: 2px 6px;
   border-radius: 50%;
   font-weight: bold;
 }
@@ -123,7 +121,7 @@
   text-align: center;
   margin-bottom: 10px;
   font-size: 16px;
-  color: rgb(6, 135, 249);
+  color: #FF8278;
 }
 
 .weekdays-row {
@@ -150,9 +148,9 @@
 }
 
 .year-day.highlight {
-  background-color:  rgb(6, 135, 249);
+  background-color:  #ffd3a4;
   border-radius: 50%;
-  color: white;
+  color: #FF8278;
   font-weight: bold;
 }
 
@@ -238,8 +236,6 @@
   min-height: 50px;
   border-left: 1px solid #eee;
 }
-
-/* Existing styles remain unchanged */
 
 .popup-overlay {
   position: fixed;
